@@ -6,21 +6,21 @@
 2. **EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks**. *Jason Wei, K. Zou*. ArXiv 2019.
 3. **Document-level multi-topic sentiment classification of Email data with BiLSTM and data augmentation**. *Sisi Liu, Kyungmi Lee, Ickjai Lee*. Knowl. Based Syst. 2020.
 4. **Text Data Augmentation Made Simple By Leveraging NLP Cloud APIs**. *C. Coulombe*. ArXiv 2018.
-5. **{WMD} at {S}em{E}val-2020 Tasks 7 and 11: Assessing Humor and Propaganda Using Unsupervised Data Augmentation**. *Guillaume Daval-Frerot, Yannick Weis*.  2020.[[pdf](https://www.aclweb.org/anthology/2020.semeval-1.246)]
+5. **WMD at SemEval-2020 Tasks 7 and 11: Assessing Humor and Propaganda Using Unsupervised Data Augmentation**. *Guillaume Daval-Frerot, Yannick Weis*.  2020.[[pdf](https://www.aclweb.org/anthology/2020.semeval-1.246)]
 6. **How Effective is Task-Agnostic Data Augmentation for Pretrained Transformers?**. *Shayne Longpre, Yu Wang, Chris DuBois*.  2020.[[pdf](https://www.aclweb.org/anthology/2020.findings-emnlp.394)]
 7. **On Data Augmentation for Extreme Multi-label Classification**. *Danqing Zhang, Tao Li, H. Zhang, Bing Yin*. ArXiv 2020.
 8. **KnowDis: Knowledge Enhanced Data Augmentation for Event Causality Detection via Distant Supervision**. *Xinyu Zuo, Yubo Chen, Kang Liu, J. Zhao*.  2020.
-9. **{BLCU}-{NLP} at {S}em{E}val-2020 Task 5: Data Augmentation for Efficient Counterfactual Detecting**. *Chang Liu, Dong Yu*.  2020.[[pdf](https://aclanthology.org/2020.semeval-1.81)]
+9. **BLCU-NLP at SemEval-2020 Task 5: Data Augmentation for Efficient Counterfactual Detecting**. *Chang Liu, Dong Yu*.  2020.[[pdf](https://aclanthology.org/2020.semeval-1.81)]
 10. **Character-level Convolutional Networks for Text Classification**. *X. Zhang, J. Zhao, Y. LeCun*.  2015.
 11. **EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks**. *Jason Wei, K. Zou*. ArXiv 2019.
 12. **Document-level multi-topic sentiment classification of Email data with BiLSTM and data augmentation**. *Sisi Liu, Kyungmi Lee, Ickjai Lee*. Knowl. Based Syst. 2020.
 13. **Text Data Augmentation Made Simple By Leveraging NLP Cloud APIs**. *C. Coulombe*. ArXiv 2018.
-14. **{WMD} at {S}em{E}val-2020 Tasks 7 and 11: Assessing Humor and Propaganda Using Unsupervised Data Augmentation**. *Guillaume Daval-Frerot, Yannick Weis*.  2020.[[pdf](https://www.aclweb.org/anthology/2020.semeval-1.246)]
+14. **WMD at SemEval-2020 Tasks 7 and 11: Assessing Humor and Propaganda Using Unsupervised Data Augmentation**. *Guillaume Daval-Frerot, Yannick Weis*.  2020.[[pdf](https://www.aclweb.org/anthology/2020.semeval-1.246)]
 15. **How Effective is Task-Agnostic Data Augmentation for Pretrained Transformers?**. *Shayne Longpre, Yu Wang, Chris DuBois*.  2020.[[pdf](https://www.aclweb.org/anthology/2020.findings-emnlp.394)]
 16. **On Data Augmentation for Extreme Multi-label Classification**. *Danqing Zhang, Tao Li, H. Zhang, Bing Yin*. ArXiv 2020.
 17. **KnowDis: Knowledge Enhanced Data Augmentation for Event Causality Detection via Distant Supervision**. *Xinyu Zuo, Yubo Chen, Kang Liu, J. Zhao*.  2020.
-18. **{BLCU}-{NLP} at {S}em{E}val-2020 Task 5: Data Augmentation for Efficient Counterfactual Detecting**. *Chang Liu, Dong Yu*.  2020.[[pdf](https://aclanthology.org/2020.semeval-1.81)]
-19. **{WMD} at {S}em{E}val-2020 Tasks 7 and 11: Assessing Humor and Propaganda Using Unsupervised Data Augmentation**. *Guillaume Daval-Frerot, Yannick Weis*.  2020.[[pdf](https://www.aclweb.org/anthology/2020.semeval-1.246)]
+18. **BLCU-NLP at SemEval-2020 Task 5: Data Augmentation for Efficient Counterfactual Detecting**. *Chang Liu, Dong Yu*.  2020.[[pdf](https://aclanthology.org/2020.semeval-1.81)]
+19. **WMD at SemEval-2020 Tasks 7 and 11: Assessing Humor and Propaganda Using Unsupervised Data Augmentation**. *Guillaume Daval-Frerot, Yannick Weis*.  2020.[[pdf](https://www.aclweb.org/anthology/2020.semeval-1.246)]
 20. **An Analysis of Simple Data Augmentation for Named Entity Recognition**. *Xiang Dai, Heike Adel*.  2020.
 ### Embeddings
 
@@ -29,7 +29,7 @@
 ### MLMs
 
 1. **Text Data Augmentation: Towards better detection of spear-phishing emails**. *Mehdi Regina, Maxime Meyer, Sébastien Goutal*.  2020.
-2. **Data Augmentation with Transformers for Text Classification**. *Jos{\'e} Tapia-T{\'e}llez, H. Escalante*.  2020.
+2. **Data Augmentation with Transformers for Text Classification**. *Jos\'e Tapia-T\'ellez, H. Escalante*.  2020.
 3. **Contextual Augmentation: Data Augmentation by Words with Paradigmatic Relations**. *Sosuke Kobayashi*.  2018.[[pdf](https://aclanthology.org/N18-2072)]
 4. **Data Augmentation for Low-Resource Neural Machine Translation**. *Marzieh Fadaee, Arianna Bisazza, Christof Monz*.  2017.[[pdf](https://aclanthology.org/P17-2090)]
 ### Rules
@@ -37,10 +37,10 @@
 1. **Text Data Augmentation: Towards better detection of spear-phishing emails**. *Mehdi Regina, Maxime Meyer, Sébastien Goutal*.  2020.
 2. **Text Data Augmentation Made Simple By Leveraging NLP Cloud APIs**. *C. Coulombe*. ArXiv 2018.
 3. **Simple is Better! Lightweight Data Augmentation for Low Resource Slot Filling and Intent Classification**. *Samuel Louvan, Bernardo Magnini*.  2020.[[pdf](https://aclanthology.org/2020.paclic-1.20)]
-4. **Data Augmentation via Dependency Tree Morphing for Low-Resource Languages**. *G{\"o}zde Sahin, Mark Steedman*.  2018.
+4. **Data Augmentation via Dependency Tree Morphing for Low-Resource Languages**. *G\"ozde Sahin, Mark Steedman*.  2018.
 ### MT
 
-1. **{WMD} at {S}em{E}val-2020 Tasks 7 and 11: Assessing Humor and Propaganda Using Unsupervised Data Augmentation**. *Guillaume Daval-Frerot, Yannick Weis*.  2020.[[pdf](https://www.aclweb.org/anthology/2020.semeval-1.246)]
+1. **WMD at SemEval-2020 Tasks 7 and 11: Assessing Humor and Propaganda Using Unsupervised Data Augmentation**. *Guillaume Daval-Frerot, Yannick Weis*.  2020.[[pdf](https://www.aclweb.org/anthology/2020.semeval-1.246)]
 2. **How Effective is Task-Agnostic Data Augmentation for Pretrained Transformers?**. *Shayne Longpre, Yu Wang, Chris DuBois*.  2020.[[pdf](https://www.aclweb.org/anthology/2020.findings-emnlp.394)]
 3. **Text Data Augmentation: Towards better detection of spear-phishing emails**. *Mehdi Regina, Maxime Meyer, Sébastien Goutal*.  2020.
 4. **Unsupervised data augmentation for consistency training**. *Qizhe Xie, Zihang Dai, Eduard Hovy, Minh-Thang Luong, Quoc Le*. arXiv preprint arXiv:1904.12848 2019.
@@ -49,12 +49,12 @@
 7. **Aggression Detection in Social Media: Using Deep Neural Networks, Data Augmentation, and Pseudo Labeling**. *Segun Aroyehun, Alexander Gelbukh*.  2018.[[pdf](https://aclanthology.org/W18-4411)]
 8. **Text Data Augmentation Made Simple By Leveraging NLP Cloud APIs**. *C. Coulombe*. ArXiv 2018.
 9. **Atalaya at TASS 2019: Data Augmentation and Robust Embeddings for Sentiment Analysis**. *Franco Luque*.  2019.
-10. **Improving Sentiment Analysis over non-English Tweets using Multilingual Transformers and Automatic Translation for Data-Augmentation**. *Valentin Barri{\`e}re, A. Balahur*.  2020.
+10. **Improving Sentiment Analysis over non-English Tweets using Multilingual Transformers and Automatic Translation for Data-Augmentation**. *Valentin Barri\`ere, A. Balahur*.  2020.
 11. **Multiple Data Augmentation Strategies for Improving Performance on Automatic Short Answer Scoring**. *J. Lun, Jia Zhu, Yong Tang, Min Yang*.  2020.
-12. **{BLCU}-{NLP} at {S}em{E}val-2020 Task 5: Data Augmentation for Efficient Counterfactual Detecting**. *Chang Liu, Dong Yu*.  2020.[[pdf](https://aclanthology.org/2020.semeval-1.81)]
+12. **BLCU-NLP at SemEval-2020 Task 5: Data Augmentation for Efficient Counterfactual Detecting**. *Chang Liu, Dong Yu*.  2020.[[pdf](https://aclanthology.org/2020.semeval-1.81)]
 13. **Parallel Data Augmentation for Formality Style Transfer**. *Yufu Zhang, Tao Ge, X. Sun*.  2020.
 14. **Improving Zero and Few-Shot Abstractive Summarization with Intermediate Fine-tuning and Data Augmentation**. *A. Fabbri, Simeng Han, Haoyuan Li, Haoran Li, Marjan Ghazvininejad, Shafiq Joty, Dragomir Radev, Yashar Mehdad*. ArXiv 2021.
-15. **{WMD} at {S}em{E}val-2020 Tasks 7 and 11: Assessing Humor and Propaganda Using Unsupervised Data Augmentation**. *Guillaume Daval-Frerot, Yannick Weis*.  2020.[[pdf](https://www.aclweb.org/anthology/2020.semeval-1.246)]
+15. **WMD at SemEval-2020 Tasks 7 and 11: Assessing Humor and Propaganda Using Unsupervised Data Augmentation**. *Guillaume Daval-Frerot, Yannick Weis*.  2020.[[pdf](https://www.aclweb.org/anthology/2020.semeval-1.246)]
 16. **QANet: Combining Local Convolution with Global Self-Attention for Reading Comprehension**. *Adams Yu, David Dohan, Minh-Thang Luong, Rui Zhao, Kai Chen, Mohammad Norouzi, Quoc Le*. ArXiv 2018.
 17. **Multilingual Transfer Learning for QA Using Translation as Data Augmentation**. *Mihaela Bornea, Lin Pan, Sara Rosenthal, Radu Florian, Avirup Sil*.  2021.
 ### Seq2Seq
@@ -99,15 +99,15 @@
 5. **Data Augmentation for Spoken Language Understanding via Pretrained Models**. *Baolin Peng, Chenguang Zhu, Michael Zeng, Jianfeng Gao*. ArXiv 2020.
 ### Substitution
 
-1. **{WMD} at {S}em{E}val-2020 Tasks 7 and 11: Assessing Humor and Propaganda Using Unsupervised Data Augmentation**. *Guillaume Daval-Frerot, Yannick Weis*.  2020.[[pdf](https://www.aclweb.org/anthology/2020.semeval-1.246)]
+1. **WMD at SemEval-2020 Tasks 7 and 11: Assessing Humor and Propaganda Using Unsupervised Data Augmentation**. *Guillaume Daval-Frerot, Yannick Weis*.  2020.[[pdf](https://www.aclweb.org/anthology/2020.semeval-1.246)]
 2. **Text Data Augmentation: Towards better detection of spear-phishing emails**. *Mehdi Regina, Maxime Meyer, Sébastien Goutal*.  2020.
 3. **Unsupervised data augmentation for consistency training**. *Qizhe Xie, Zihang Dai, Eduard Hovy, Minh-Thang Luong, Quoc Le*. arXiv preprint arXiv:1904.12848 2019.
 4. **Text Data Augmentation Made Simple By Leveraging NLP Cloud APIs**. *C. Coulombe*. ArXiv 2018.
 5. **Multiple Data Augmentation Strategies for Improving Performance on Automatic Short Answer Scoring**. *J. Lun, Jia Zhu, Yong Tang, Min Yang*.  2020.
-6. **Data Noising as Smoothing in Neural Network Language Models**. *Ziang Xie, Sida Wang, J. Li, Daniel L{\'e}vy, Allen Nie, Dan Jurafsky, A. Ng*. ArXiv 2017.
-7. **{S}witch{O}ut: an Efficient Data Augmentation Algorithm for Neural Machine Translation**. *Xinyi Wang, Hieu Pham, Zihang Dai, Graham Neubig*.  2018.[[pdf](https://aclanthology.org/D18-1100)]
+6. **Data Noising as Smoothing in Neural Network Language Models**. *Ziang Xie, Sida Wang, J. Li, Daniel L\'evy, Allen Nie, Dan Jurafsky, A. Ng*. ArXiv 2017.
+7. **SwitchOut: an Efficient Data Augmentation Algorithm for Neural Machine Translation**. *Xinyi Wang, Hieu Pham, Zihang Dai, Graham Neubig*.  2018.[[pdf](https://aclanthology.org/D18-1100)]
 8. **Data Augmentation for Spoken Language Understanding via Pretrained Models**. *Baolin Peng, Chenguang Zhu, Michael Zeng, Jianfeng Gao*. ArXiv 2020.
-9. **{WMD} at {S}em{E}val-2020 Tasks 7 and 11: Assessing Humor and Propaganda Using Unsupervised Data Augmentation**. *Guillaume Daval-Frerot, Yannick Weis*.  2020.[[pdf](https://www.aclweb.org/anthology/2020.semeval-1.246)]
+9. **WMD at SemEval-2020 Tasks 7 and 11: Assessing Humor and Propaganda Using Unsupervised Data Augmentation**. *Guillaume Daval-Frerot, Yannick Weis*.  2020.[[pdf](https://www.aclweb.org/anthology/2020.semeval-1.246)]
 10. **Simple is Better! Lightweight Data Augmentation for Low Resource Slot Filling and Intent Classification**. *Samuel Louvan, Bernardo Magnini*.  2020.[[pdf](https://aclanthology.org/2020.paclic-1.20)]
 11. **An Analysis of Simple Data Augmentation for Named Entity Recognition**. *Xiang Dai, Heike Adel*.  2020.
 12. **Substructure Substitution: Structured Data Augmentation for NLP**. *Haoyue Shi, Karen Livescu, Kevin Gimpel*. ArXiv 2021.
@@ -156,7 +156,7 @@
 8. **Improving Commonsense Causal Reasoning by Adversarial Training and Data Augmentation**. *Ieva Staliunaite, P. Gorinski, Ignacio Iacobacci*.  2021.
 9. **Data Augmentation for Spoken Language Understanding via Pretrained Models**. *Baolin Peng, Chenguang Zhu, Michael Zeng, Jianfeng Gao*. ArXiv 2020.
 10. **SSMBA: Self-Supervised Manifold Based Data Augmentation for Improving Out-of-Domain Robustness**. *Nathan Ng, Kyunghyun Cho, M. Ghassemi*. ArXiv 2020.
-11. **Deep Transformer based Data Augmentation with Subword Units for Morphologically Rich Online ASR**. *Bal{\'a}zs Tarj{\'a}n, Gy{\"o}rgy Szasz{\'a}k, Tibor Fegy{\'o}, P{\'e}ter Mihajlik*. arXiv preprint arXiv:2007.06949 2020.
+11. **Deep Transformer based Data Augmentation with Subword Units for Morphologically Rich Online ASR**. *Bal\'azs Tarj\'an, Gy\"orgy Szasz\'ak, Tibor Fegy\'o, P\'eter Mihajlik*. arXiv preprint arXiv:2007.06949 2020.
 12. **Data Augmentation for Spoken Language Understanding via Pretrained Models**. *Baolin Peng, Chenguang Zhu, Michael Zeng, Jianfeng Gao*. ArXiv 2020.
 ### Self-training
 
