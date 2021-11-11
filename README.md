@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Data Augmentation methods have achieved great success in NLP recently. In this repo, we frame DA methods into three categories based on the **diversity** of augmented data, including *paraphrasing*, *noising*, and *sampling*.  [Here]() you can get the source paper for more details. Feel free to distribute or use it!
+Data Augmentation methods have achieved great success in NLP recently. In this repo, we frame DA methods into three categories based on the **diversity** of augmented data, including *paraphrasing*, *noising*, and *sampling*.  [Here](https://github.com/BohanLi0110/NLP-DA-Papers/blob/main/DA_in_NLP.pdf) you can get the source paper for more details. Feel free to distribute or use it!
 
 Corrections and suggestions are welcomed!
 
-![DA](Three_categories.png)
+![DA](DA_in_NLP.png)
 
 
 
