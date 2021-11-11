@@ -1,5 +1,30 @@
 # Must-Read Papers on NLP Data Augmentation (DA) Methods
 
+## Contents
+* [Must-Read Papers on NLP Data Augmentation (DA) Methods](#must-read-papers-on-nlp-data-augmentation-da-methods)
+      * [Contents](#contents)
+   * [Introduction](#introduction)
+   * [Survey](#survey)
+   * [1. Paraphrasing](#1-paraphrasing)
+      * [1.1 Thesauruses](#11-thesauruses)
+      * [1.2 Embeddings](#12-embeddings)
+      * [1.3 MLMs](#13-mlms)
+      * [1.4 Rules](#14-rules)
+      * [1.5 MT](#15-mt)
+      * [1.6 Seq2Seq](#16-seq2seq)
+   * [2. Noising](#2-noising)
+      * [2.1 Swapping](#21-swapping)
+      * [2.2 Deletion](#22-deletion)
+      * [2.3 Insertion](#23-insertion)
+      * [2.4 Substitution](#24-substitution)
+      * [2.5 Mixup](#25-mixup)
+   * [3. Sampling](#3-sampling)
+      * [3.1 Rules](#31-rules)
+      * [3.2 Seq2Seq](#32-seq2seq)
+      * [3.3 Pretrained](#33-pretrained)
+      * [3.4 Self-training](#34-self-training)
+
+
 ## Introduction
 
 Data Augmentation methods have achieved great success in NLP recently. In this repo, we frame DA methods into three categories based on the **diversity** of augmented data, including *paraphrasing*, *noising*, and *sampling*.  [Here](https://github.com/BohanLi0110/NLP-DA-Papers/blob/main/DA_in_NLP.pdf) you can get the source paper for more details. Feel free to distribute or use it!
@@ -23,9 +48,9 @@ Corrections and suggestions are welcomed!
 
 ```
 
-## Paraphrasing
+## 1. Paraphrasing
 
-### Thesauruses
+### 1.1 Thesauruses
 
 1. **Character-level Convolutional Networks for Text Classification**. *Xiang Zhang, Junbo Zhao, Yann LeCun*. NIPS 2015. [[pdf](https://proceedings.neurips.cc/paper/2015/hash/250cf8b51c773f3f8dc8b4be867a9a02-Abstract.html)]
 2. **Text Data Augmentation Made Simple By Leveraging NLP Cloud APIs**. *Claude Coulombe*. ArXiv 2018. [[pdf](http://arxiv.org/abs/1812.04718)]
@@ -37,23 +62,23 @@ Corrections and suggestions are welcomed!
 8. **KnowDis: Knowledge Enhanced Data Augmentation for Event Causality Detection via Distant Supervision**. *Xinyu Zuo, Yubo Chen, Kang Liu, Jun Zhao*. COLING 2020. [[pdf](https://doi.org/10.18653/v1/2020.coling-main.135)]
 9. **On Data Augmentation for Extreme Multi-label Classification**. *Danqing Zhang, Tao Li, Haiyang Zhang, Bing Yin*. arXiv 2020. [[pdf](https://arxiv.org/abs/2009.10778)]
 10. **WMD at SemEval-2020 Tasks 7 and 11: Assessing Humor and Propaganda Using Unsupervised Data Augmentation**. *Guillaume Daval-Frerot, Yannick Weis*. SEMEVAL 2020. [[pdf](https://www.aclweb.org/anthology/2020.semeval-1.246)]
-### Embeddings
+### 1.2 Embeddings
 
 1. **That's So Annoying!!!: A Lexical and Frame-Semantic Embedding Based Data Augmentation Approach to Automatic Categorization of Annoying Behaviors using \#petpeeve Tweets**. *William Wang, Diyi Yang*. EMNLP 2015. [[pdf](https://doi.org/10.18653/v1/d15-1306)]
 2. **Document-level multi-topic sentiment classification of Email data with BiLSTM and data augmentation**. *Sisi Liu, Kyungmi Lee, Ickjai Lee*. Knowl. Based Syst. 2020. [[pdf](https://doi.org/10.1016/j.knosys.2020.105918)]
-### MLMs
+### 1.3 MLMs
 
 1. **Data Augmentation for Low-Resource Neural Machine Translation**. *Marzieh Fadaee, Arianna Bisazza, Christof Monz*. ACL 2017. [[pdf](https://doi.org/10.18653/v1/P17-2090)]
 2. **Contextual Augmentation: Data Augmentation by Words with Paradigmatic Relations**. *Sosuke Kobayashi*. NAACL-HLT 2018. [[pdf](https://doi.org/10.18653/v1/n18-2072)]
 3. **Data Augmentation with Transformers for Text Classification**. *Jos\'e Tapia-T\'ellez, Hugo Escalante*. MICAI 2020. [[pdf](https://doi.org/10.1007/978-3-030-60887-3\_22)]
 4. **Text Data Augmentation: Towards better detection of spear-phishing emails**. *Mehdi Regina, Maxime Meyer, S\'ebastien Goutal*. arXiv 2020. [[pdf](https://arxiv.org/abs/2007.02033)]
-### Rules
+### 1.4 Rules
 
 1. **Text Data Augmentation Made Simple By Leveraging NLP Cloud APIs**. *Claude Coulombe*. ArXiv 2018. [[pdf](http://arxiv.org/abs/1812.04718)]
 2. **Data Augmentation via Dependency Tree Morphing for Low-Resource Languages**. *G\"ozde Sahin, Mark Steedman*. arXiv 2019. [[pdf](http://arxiv.org/abs/1903.09460)]
 3. **Simple is Better! Lightweight Data Augmentation for Low Resource Slot Filling and Intent Classification**. *Samuel Louvan, Bernardo Magnini*. PACLIC 2020. [[pdf](https://aclanthology.org/2020.paclic-1.20/)]
 4. **Text Data Augmentation: Towards better detection of spear-phishing emails**. *Mehdi Regina, Maxime Meyer, S\'ebastien Goutal*. arXiv 2020. [[pdf](https://arxiv.org/abs/2007.02033)]
-### MT
+### 1.5 MT
 
 1. **Aggression Detection in Social Media: Using Deep Neural Networks, Data Augmentation, and Pseudo Labeling**. *Segun Aroyehun, Alexander Gelbukh*. TRAC@COLING 2018. [[pdf](https://aclanthology.org/W18-4411/)]
 2. **QANet: Combining Local Convolution with Global Self-Attention for Reading Comprehension**. *Adams Yu, David Dohan, Minh-Thang Luong, Rui Zhao, Kai Chen, Mohammad Norouzi, Quoc Le*. ICLR 2018. [[pdf](https://openreview.net/forum?id=B14TlG-RW)]
@@ -72,7 +97,7 @@ Corrections and suggestions are welcomed!
 15. **WMD at SemEval-2020 Tasks 7 and 11: Assessing Humor and Propaganda Using Unsupervised Data Augmentation**. *Guillaume Daval-Frerot, Yannick Weis*. SEMEVAL 2020. [[pdf](https://www.aclweb.org/anthology/2020.semeval-1.246)]
 16. **Multilingual Transfer Learning for QA using Translation as Data Augmentation**. *Mihaela Bornea, Lin Pan, Sara Rosenthal, Radu Florian, Avirup Sil*. AAAI 2021. [[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/17491)]
 
-### Seq2Seq
+### 1.6 Seq2Seq
 
 1. **Sequence-to-Sequence Data Augmentation for Dialogue Language Understanding**. *Yutai Hou, Yijia Liu, Wanxiang Che, Ting Liu*. COLING 2018. [[pdf](https://aclanthology.org/C18-1105/)]
 2. **Conditional Augmentation for Aspect Term Extraction via Masked Sequence-to-Sequence Generation**. *Kun Li, Chengbo Chen, Xiaojun Quan, Qing Ling, Yan Song*. ACL 2020. [[pdf](https://doi.org/10.18653/v1/2020.acl-main.631)]
@@ -83,9 +108,9 @@ Corrections and suggestions are welcomed!
 7. **Variational Hierarchical Dialog Autoencoder for Dialog State Tracking Data Augmentation**. *Kang Yoo, Hanbit Lee, Franck Dernoncourt, Trung Bui, Walter Chang, Sang-goo Lee*. EMNLP 2020. [[pdf](https://doi.org/10.18653/v1/2020.emnlp-main.274)]
 8. **C2C-GenDA: Cluster-to-Cluster Generation for Data Augmentation of Slot Filling**. *Yutai Hou, Sanyuan Chen, Wanxiang Che, Cheng Chen, Ting Liu*. AAAI 2021. [[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/17540)]
 9. **Data Augmentation for Hypernymy Detection**. *Thomas Kober, Julie Weeds, Lorenzo Bertolini, David Weir*. EACL 2021. [[pdf](https://aclanthology.org/2021.eacl-main.89/)]
-## Noising
+## 2. Noising
 
-### Swapping
+### 2.1 Swapping
 
 1. **Atalaya at TASS 2019: Data Augmentation and Robust Embeddings for Sentiment Analysis**. *Franco Luque*. IberLEF@SEPLN 2019. [[pdf](http://ceur-ws.org/Vol-2421/TASS\_paper\_1.pdf)]
 2. **Data Augmentation for Deep Learning of Judgment Documents**. *Ge Yan, Yu Li, Shu Zhang, Zhenyu Chen*. IScIDE 2019. [[pdf](https://doi.org/10.1007/978-3-030-36204-1\_19)]
@@ -94,7 +119,7 @@ Corrections and suggestions are welcomed!
 5. **Can We Achieve More with Less? Exploring Data Augmentation for Toxic Comment Classification**. *Chetanya Rastogi, Nikka Mofid, Fang-I Hsiao*. arXiv 2020. [[pdf](https://arxiv.org/abs/2007.00875)]
 6. **How Effective is Task-Agnostic Data Augmentation for Pretrained Transformers?**. *Shayne Longpre, Yu Wang, Chris DuBois*. EMNLP Findings 2020. [[pdf](https://www.aclweb.org/anthology/2020.findings-emnlp.394)]
 7. **On Data Augmentation for Extreme Multi-label Classification**. *Danqing Zhang, Tao Li, Haiyang Zhang, Bing Yin*. arXiv 2020. [[pdf](https://arxiv.org/abs/2009.10778)]
-### Deletion
+### 2.2 Deletion
 
 1. **Data Augmentation for Deep Learning of Judgment Documents**. *Ge Yan, Yu Li, Shu Zhang, Zhenyu Chen*. IScIDE 2019. [[pdf](https://doi.org/10.1007/978-3-030-36204-1\_19)]
 2. **EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks**. *Jason Wei, Kai Zou*. EMNLP 2019. [[pdf](https://doi.org/10.18653/v1/D19-1670)]
@@ -103,14 +128,14 @@ Corrections and suggestions are welcomed!
 5. **Data Augmentation for Spoken Language Understanding via Pretrained Models**. *Baolin Peng, Chenguang Zhu, Michael Zeng, Jianfeng Gao*. arXiv 2020. [[pdf](https://arxiv.org/abs/2004.13952)]
 6. **How Effective is Task-Agnostic Data Augmentation for Pretrained Transformers?**. *Shayne Longpre, Yu Wang, Chris DuBois*. EMNLP Findings 2020. [[pdf](https://www.aclweb.org/anthology/2020.findings-emnlp.394)]
 7. **On Data Augmentation for Extreme Multi-label Classification**. *Danqing Zhang, Tao Li, Haiyang Zhang, Bing Yin*. arXiv 2020. [[pdf](https://arxiv.org/abs/2009.10778)]
-### Insertion
+### 2.3 Insertion
 
 1. **EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks**. *Jason Wei, Kai Zou*. EMNLP 2019. [[pdf](https://doi.org/10.18653/v1/D19-1670)]
 2. **Can We Achieve More with Less? Exploring Data Augmentation for Toxic Comment Classification**. *Chetanya Rastogi, Nikka Mofid, Fang-I Hsiao*. arXiv 2020. [[pdf](https://arxiv.org/abs/2007.00875)]
 3. **Data Augmentation for Spoken Language Understanding via Pretrained Models**. *Baolin Peng, Chenguang Zhu, Michael Zeng, Jianfeng Gao*. arXiv 2020. [[pdf](https://arxiv.org/abs/2004.13952)]
 4. **How Effective is Task-Agnostic Data Augmentation for Pretrained Transformers?**. *Shayne Longpre, Yu Wang, Chris DuBois*. EMNLP Findings 2020. [[pdf](https://www.aclweb.org/anthology/2020.findings-emnlp.394)]
 5. **On Data Augmentation for Extreme Multi-label Classification**. *Danqing Zhang, Tao Li, Haiyang Zhang, Bing Yin*. arXiv 2020. [[pdf](https://arxiv.org/abs/2009.10778)]
-### Substitution
+### 2.4 Substitution
 
 1. **Data Noising as Smoothing in Neural Network Language Models**. *Ziang Xie, Sida Wang, Jiwei Li, Daniel L\'evy, Aiming Nie, Dan Jurafsky, Andrew Ng*. ICLR 2017. [[pdf](https://openreview.net/forum?id=H1VyHY9gg)]
 2. **SwitchOut: an Efficient Data Augmentation Algorithm for Neural Machine Translation**. *Xinyi Wang, Hieu Pham, Zihang Dai, Graham Neubig*. EMNLP 2018. [[pdf](https://doi.org/10.18653/v1/d18-1100)]
@@ -123,16 +148,16 @@ Corrections and suggestions are welcomed!
 9. **Unsupervised Data Augmentation for Consistency Training**. *Qizhe Xie, Zihang Dai, Eduard Hovy, Thang Luong, Quoc Le*. NeurIPS 2020. [[pdf](https://proceedings.neurips.cc/paper/2020/hash/44feb0096faa8326192570788b38c1d1-Abstract.html)]
 10. **WMD at SemEval-2020 Tasks 7 and 11: Assessing Humor and Propaganda Using Unsupervised Data Augmentation**. *Guillaume Daval-Frerot, Yannick Weis*. SEMEVAL 2020. [[pdf](https://www.aclweb.org/anthology/2020.semeval-1.246)]
 11. **Substructure Substitution: Structured Data Augmentation for NLP**. *Haoyue Shi, Karen Livescu, Kevin Gimpel*.  2021. [[pdf](https://doi.org/10.18653/v1/2021.findings-acl.307)]
-### Mixup
+### 2.5 Mixup
 
 1. **Augmenting Data with Mixup for Sentence Classification: An Empirical Study**. *Hongyu Guo, Yongyi Mao, Richong Zhang*. arXiv 2019. [[pdf](http://arxiv.org/abs/1905.08941)]
 2. **AdvAug: Robust Adversarial Augmentation for Neural Machine Translation**. *Yong Cheng, Lu Jiang, Wolfgang Macherey, Jacob Eisenstein*. ACL 2020. [[pdf](https://doi.org/10.18653/v1/2020.acl-main.529)]
 3. **Better Robustness by More Coverage: Adversarial Training with Mixup Augmentation for Robust Fine-tuning**. *Chenglei Si, Zhengyan Zhang, Fanchao Qi, Zhiyuan Liu, Yasheng Wang, Qun Liu, Maosong Sun*. arXiv 2020. [[pdf](https://arxiv.org/abs/2012.15699)]
 4. **Local Additivity Based Data Augmentation for Semi-supervised NER**. *Jiaao Chen, Zhenghui Wang, Ran Tian, Zichao Yang, Diyi Yang*. EMNLP 2020. [[pdf](https://doi.org/10.18653/v1/2020.emnlp-main.95)]
 5. **Mixup-Transformer: Dynamic Data Augmentation for NLP Tasks**. *Lichao Sun, Congying Xia, Wenpeng Yin, Tingting Liang, Philip Yu, Lifang He*. COLING 2020. [[pdf](https://doi.org/10.18653/v1/2020.coling-main.305)]
-## Sampling
+## 3. Sampling
 
-### Rules
+### 3.1 Rules
 
 1. **Improved relation classification by deep recurrent neural networks with data augmentation**. *Yan Xu, Ran Jia, Lili Mou, Ge Li, Yunchuan Chen, Yangyang Lu, Zhi Jin*. COLING 2016. [[pdf](https://aclanthology.org/C16-1138/)]
 2. **AdvEntuRe: Adversarial Training for Textual Entailment with Knowledge-Guided Examples**. *Dongyeop Kang, Tushar Khot, Ashish Sabharwal, Eduard Hovy*. ACL 2018. [[pdf](https://aclanthology.org/P18-1225/)]
@@ -144,7 +169,7 @@ Corrections and suggestions are welcomed!
 8. **Multiple Data Augmentation Strategies for Improving Performance on Automatic Short Answer Scoring**. *Jiaqi Lun, Jia Zhu, Yong Tang, Min Yang*. AAAI 2020. [[pdf](https://aaai.org/ojs/index.php/AAAI/article/view/7062)]
 9. **Syntactic Data Augmentation Increases Robustness to Inference Heuristics**. *Junghyun Min, R. McCoy, Dipanjan Das, Emily Pitler, Tal Linzen*. ACL 2020. [[pdf](https://doi.org/10.18653/v1/2020.acl-main.212)]
 10. **Data Augmentation for Hypernymy Detection**. *Thomas Kober, Julie Weeds, Lorenzo Bertolini, David Weir*. EACL 2021. [[pdf](https://aclanthology.org/2021.eacl-main.89/)]
-### Seq2Seq
+### 3.2 Seq2Seq
 
 1. **Improving Neural Machine Translation Models with Monolingual Data**. *Rico Sennrich, Barry Haddow, Alexandra Birch*. ACL 2016. [[pdf](https://doi.org/10.18653/v1/p16-1009)]
 2. **AdvEntuRe: Adversarial Training for Textual Entailment with Knowledge-Guided Examples**. *Dongyeop Kang, Tushar Khot, Ashish Sabharwal, Eduard Hovy*. ACL 2018. [[pdf](https://aclanthology.org/P18-1225/)]
@@ -155,7 +180,7 @@ Corrections and suggestions are welcomed!
 7. **Lexical-Constraint-Aware Neural Machine Translation via Data Augmentation**. *Guanhua Chen, Yun Chen, Yong Wang, Victor Li*. IJCAI 2020. [[pdf](https://doi.org/10.24963/ijcai.2020/496)]
 8. **Parallel Data Augmentation for Formality Style Transfer**. *Yi Zhang, Tao Ge, Xu Sun*. ACL 2020. [[pdf](https://doi.org/10.18653/v1/2020.acl-main.294)]
 9. **Pattern-aware Data Augmentation for Query Rewriting in Voice Assistant Systems**. *Yunmo Chen, Sixing Lu, Fan Yang, Xiaojiang Huang, Xing Fan, Chenlei Guo*. arXiv 2020. [[pdf](https://arxiv.org/abs/2012.11468)]
-### Pretrained
+### 3.3 Pretrained
 
 1. **Data Augmentation for Spoken Language Understanding via Pretrained Models**. *Baolin Peng, Chenguang Zhu, Michael Zeng, Jianfeng Gao*. arXiv 2020. [[pdf](https://arxiv.org/abs/2004.13952)]
 2. **Data Augmentation using Pre-trained Transformer Models**. *Varun Kumar, Ashutosh Choudhary, Eunah Cho*. arXiv 2020. [[pdf](https://arxiv.org/abs/2003.02245)]
@@ -167,7 +192,7 @@ Corrections and suggestions are welcomed!
 8. **SSMBA: Self-Supervised Manifold Based Data Augmentation for Improving Out-of-Domain Robustness**. *Nathan Ng, Kyunghyun Cho, Marzyeh Ghassemi*. EMNLP 2020. [[pdf](https://doi.org/10.18653/v1/2020.emnlp-main.97)]
 9. **Textual Data Augmentation for Efficient Active Learning on Tiny Datasets**. *Husam Quteineh, Spyridon Samothrakis, Richard Sutcliffe*. EMNLP 2020. [[pdf](https://doi.org/10.18653/v1/2020.emnlp-main.600)]
 10. **Improving Commonsense Causal Reasoning by Adversarial Training and Data Augmentation**. *Ieva Staliunaite, Philip Gorinski, Ignacio Iacobacci*. AAAI 2021. [[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/17630)]
-### Self-training
+### 3.4 Self-training
 
 1. **Augmentation-based Answer Type Classification of the SMART dataset**. *Aleksandr Perevalov, Andreas Both*. SMART@ISWC 2020. [[pdf](http://ceur-ws.org/Vol-2774/paper-01.pdf)]
 2. **Denoising Pre-Training and Data Augmentation Strategies for Enhanced RDF Verbalization with Transformers**. *Sebastien Montella, Betty Fabre, Tanguy Urvoy, Johannes Heinecke, Lina Rojas-Barahona*. arXiv 2020. [[pdf](https://arxiv.org/abs/2012.00571)]
