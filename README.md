@@ -27,9 +27,15 @@
 
 ## Introduction
 
-Data Augmentation methods have achieved great success in NLP recently. In this repo, we frame DA methods into three categories based on the **diversity** of augmented data, including *paraphrasing*, *noising*, and *sampling*.  [Here](https://github.com/BohanLi0110/NLP-DA-Papers/blob/main/DA_in_NLP.pdf) you can get the source paper for more details. Feel free to distribute or use it!
+Data Augmentation methods have achieved great success in NLP recently. 
+In this repo, we frame DA methods into three categories based on the **diversity** of augmented data, 
+including *paraphrasing*, *noising*, and *sampling*.  [Here](https://github.com/BohanLi0110/NLP-DA-Papers/blob/main/DA_in_NLP.pdf) 
+you can get the source paper for more details. Feel free to distribute or use it!
 
-Corrections and suggestions are welcomed!
+Corrections and suggestions are welcomed! 
+
+The works under each category are **sorted by year and title letter (a-z)**, please
+make sure you **follow the same format when pulling a request**!
 
 ![DA](DA_in_NLP.png)
 
@@ -39,13 +45,21 @@ Corrections and suggestions are welcomed!
 
 **Data Augmentation Approaches in Natural Language Processing: A Survey**. *Bohan Li, Yutai Hou, Wanxiang Che*. arXiv:2106.07139 2021. [[pdf](https://arxiv.org/abs/2110.01852)]
 ```bib
-@article{Li2021DataAA,
-  title={Data Augmentation Approaches in Natural Language Processing: A Survey},
-  author={Bohan Li and Yutai Hou and Wanxiang Che},
-  journal={ArXiv},
-  year={2021},
-  volume={abs/2110.01852}
-
+@article{DBLP:journals/corr/abs-2110-01852,
+  author    = {Bohan Li and
+               Yutai Hou and
+               Wanxiang Che},
+  title     = {Data Augmentation Approaches in Natural Language Processing: {A} Survey},
+  journal   = {CoRR},
+  volume    = {abs/2110.01852},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2110.01852},
+  eprinttype = {arXiv},
+  eprint    = {2110.01852},
+  timestamp = {Fri, 08 Oct 2021 15:47:55 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2110-01852.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
 ```
 
 ## 1. Paraphrasing
